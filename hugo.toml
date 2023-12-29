@@ -81,7 +81,7 @@ paginate = 5
     title = "villo"
     [languages.en.params.logo]
       logoText = "VilloBlog"
-      logoHomeLink = "/"
+      logoHomeLink = "/blog"
       [[languages.en.menu.main]]
         identifier = "domotica"
         name = "domotica"
