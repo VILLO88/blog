@@ -2,7 +2,7 @@
 title = 'Zigbee'
 date = 2023-12-29T15:01:02+01:00
 draft = false
-color = 'green'
+color = ''
 ---
 15:12
 Il protocollo Zigbee si differenzia dal normale protocollo wifi usato per esempio dai dispositivi Shelly in diversi aspetti, diciamo che di base con la tecnologia usata da shelly condivide solo la banda di frequenza utilizzata dei 2.4Ghz, del resto il sistema zigbee *per trasferimento di piccoli pacchetti di dati* è molto più efficente, di seguito alcune funzionalità:
