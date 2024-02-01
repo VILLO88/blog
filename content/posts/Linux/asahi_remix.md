@@ -15,7 +15,7 @@ color = "" #color from the theme settings
 
 # Linux su Apple silicon è ora realtà!
 
-{{< image src="img/asahiM1.jpeg" position="center" style="border-radius: 8px;" >}}
+{{< image src="img/asahiM1.png" position="center" style="border-radius: 8px;" >}}
 
 Cosa sogna qualsiasi nerd/informatico amante di linux? 
 ...un pc portatile leggero, con buone prestazioni, fanless (e che non scaldi) con una autonomia di anche 15/16 ore..
