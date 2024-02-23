@@ -17,7 +17,8 @@ color = "" #color from the theme settings
 
 
 ![AshaiM1](/asahiM1.png)
-![AshaiM1](/images/asahiM1.png)
+![AshaiM1](/ciao.png)
+
 
 Cosa sogna qualsiasi nerd/informatico amante di linux? 
 ...un pc portatile leggero, con buone prestazioni, fanless (e che non scaldi) con una autonomia di anche 15/16 ore..
