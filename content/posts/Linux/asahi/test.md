@@ -1,9 +1,10 @@
 +++
-title = "Elettronica"
-date = "2023-12-29T11:52:41+01:00"
+title = "Test"
+date = "2024-02-23T17:23:30+01:00"
 author = ""
 authorTwitter = "" #do not include @
-tags = ["elettronica", ""]
+cover = ""
+tags = ["", ""]
 keywords = ["", ""]
 description = ""
 showFullContent = false
@@ -12,9 +13,6 @@ hideComments = false
 color = "" #color from the theme settings
 +++
 
-{{< image src="elettronica.png" position="center" style="border-radius: 8px;" >}}
+Prova ## 1234
 
-
-# index elettronica
-
-Helloooo
+![Test](ciao.png?width=500px)

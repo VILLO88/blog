@@ -13,6 +13,8 @@ hideComments = false
 color = "" #color from the theme settings
 +++
 
+
+{{< image src="ciao.png" position="center" style="border-radius: 10px;" >}}
 # index Linux
 In questa sezione tratteremo tutti i progetti e le esperienze fatte nel magico mondo di linux.
 
