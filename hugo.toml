@@ -19,7 +19,7 @@ paginate = 5
   themeColor = "orange"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 3
 
   # show selector to switch language
   showLanguageSelector = false
@@ -33,19 +33,23 @@ paginate = 5
   # if your resource directory contains an image called `cover.(jpg|png|webp)`,
   # then the file will be used as a cover automatically.
 
-#[menus]
-#[[menus.main]]
-#    name = 'Home'
-#    pageRef = '/'
-#    weight = 10
-#[[menus.main]]
-#    name = 'Progetti'
-#    pageRef = '/products'
-#    weight = 20
-#[[menus.main]]
-#    name = 'Services'
-#    pageRef = '/services'
-#    weight = 30
+[menus]
+[[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+[[menus.main]]
+    name = 'Domotica'
+    pageRef = '/posts/domotica'
+    weight = 20
+[[menus.main]]
+    name = 'Elettronica'
+    pageRef = '/posts/elettronica'
+    weight = 30
+[[menus.main]]
+    name = 'Linux'
+    pageRef = '/posts/linux'
+    weight = 40
 
   # With this option you don't have to put the `cover` param in a front-matter.
   autoCover = true
@@ -80,17 +84,3 @@ paginate = 5
   # replacements = "github.com/panr/hugo-theme-terminal -> themes/terminal"
 #[[module.imports]]
   #path = 'github.com/panr/hugo-theme-terminal'
-[languages]
-  [languages.en]
-    title = "villo"
-    [languages.en.params.logo]
-      logoText = "VilloBlog"
-      logoHomeLink = "/blog"
-      [[languages.en.menu.main]]
-        identifier = "domotica"
-        name = "domotica"
-        url = "/posts/domotica"
-      [[languages.en.menu.main]]
-        identifier = "elettronica"
-        name = "elettronica"
-        url = "/posts/elettronica"
