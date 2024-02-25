@@ -15,4 +15,5 @@ color = "" #color from the theme settings
 
 ## post1
 
+![Test](asahiM1.png)
 lalalallalalala
