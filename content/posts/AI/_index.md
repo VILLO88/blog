@@ -6,6 +6,9 @@ tags = ["AI", ""]
 author = ""
 +++
 
+
+<span style="color:blue">22:00    26/02/24</span>.
+
 In questa sezione porterò le eseprienze fatte con l'uso di vari strumenti AI come large leanguage models e ai generative.
 
 Le prime cose che voglio fare sono:
