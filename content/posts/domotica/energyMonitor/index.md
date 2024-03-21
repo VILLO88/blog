@@ -1,6 +1,6 @@
 +++
 title = "HomeAssistant-EnergyDashboard"
-date = "2023-12-29T14:29:16+01:00"
+date = "2024-03-21T23:20:16+01:00"
 author = "villo"
 authorTwitter = "" #do not include @
 cover = ""
