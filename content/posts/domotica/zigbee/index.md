@@ -20,4 +20,5 @@ Il protocollo Zigbee si differenzia dal normale protocollo wifi usato per esempi
 - la funzione veramente più incredibile è quella della rete mesh, in pratica ipotizziamo di avere 3 dispositivi zigbee + il gateway, il dispositivo 1 è un sensore a batteria e si trova vicino al gateway, il dispositivo 2 è un attuatore per tapparelle alimentato a 220v e si trova a metà circa della portata del gateway e il dispositivo 3 è un sensore a batteria che rispetto al gateway si troverebbe troppo lontano, ma relativamente vicino al dispositivo 2 che # funge da router ripetitore # e permette di estendere la comunicazione anche fino al sensore 3.
 
 Modulo per le tapparelle che ho usato che funge anche da router per il segnale zigbee:
-![tuya](/tapparelle.jpg) 
+{{< image src="tapparelle.jpg" position="center" style="border-radius: 8px;" >}}
+

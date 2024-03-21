@@ -12,7 +12,7 @@ author = ""
 In questa sezione porterò le eseprienze fatte con l'uso di vari strumenti AI come large leanguage models e ai generative.
 
 Le prime cose che voglio fare sono:
-- generazione di storie per bambini con ai generativa di immagini e testo trmite prompt, l obiettivo è di usare 2/3 strumenti separati per generare il testo le immagini e effettuare il montaggio per poter magari essere stampato in forma di libretti per bambini.
+- generazione di storie per bambini con ai generativa di immagini e testo trmite prompt, l obiettivo è di usare 2/3 strumenti separati per generare il testo le immagini e effettuare il montaggio per poter magari essere stampato in forma di libretti per bambini (canva??)
 - Sto sviluppando un bot di assistenza tecnica personalizzato per il mio lavoro. Ho scoperto un progetto open source molto interessante chiamato privateGPT che sembra adattarsi perfettamente alle mie esigenze. L'idea è creare un chatbot con un'interfaccia utente grafica che riceva prompt e utilizzi un Language Model (LLM) open source adeguatamente addestrato utilizzando documenti PDF forniti da me. Questo chatbot sarà in grado di rispondere in modo specifico a domande tecniche relative al mio settore lavorativo.
 
 La sfida principale non sarà tanto addestrare il modello, poiché privateGPT lo rende relativamente semplice, ma piuttosto pulire e preparare i dati che fornirò al modello. Questo includerà la traduzione dei PDF dall'inglese all'italiano e la correzione di eventuali appunti poco chiari per renderli più comprensibili al modello.
