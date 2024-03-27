@@ -43,7 +43,7 @@ La prima cosa da fare sicuramente è segnarci come si chiamano su HomeAssistant 
 Il primo assumerà solo due stati, *consuming* o *producing* invece il secondo darà un valore in Kw.
 Nel file di configurazione di HomeAssistant andremo a creare delle nuove entità:
 
-'''
+```
 template:
   - sensor:
       - name: "consumo"
@@ -89,7 +89,7 @@ homeassistant:
       state_class: total_increasing
     sensor.energia_prodotta:
       state_class: total_increasing
-'''
+```
 
 
 
