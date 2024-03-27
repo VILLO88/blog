@@ -35,7 +35,62 @@ Dopo aver alimentato le due unità sono subito state riconosciute all interno di
 In questo caso il canale A è collegato alla fase del contatore quindi misura sostanzialmente la corrente che prendo e quella che cedo alla rete. B invece è collegato alla fase dell'impianto fotovoltaico.
 
 27/03/24
-Una volta collegate le due pinze come detto, posso verificare immediatamente dentro a
+Una volta collegate le due pinze come detto, posso verificare immediatamente da zigbee2Mqtt se il "verso" della corrente e la lettura della potenza istantanea sono corretti.
+
+Fatto questo check possiamo passare a HomeAssistant, dove sarà il lavoro più grande di configurazione, poichè noi abbiamo delle entità nuove che ci forniscono valori di potenza instantanea, perfetti per una power dashboard, ma noi vogliamo anche integrare una energy dashboard.
+Per fare questo dobbiamo creare delle nuove entità tramite la configurazione di *integrazioni*
+La prima cosa da fare sicuramente è segnarci come si chiamano su HomeAssistant le entità che ci forniscono i dati di potenza istantanea e "direzione" di corrente, nel mio caso si chiameranno "sensor.power2canali_energy_flow_a" e "sensor.power2canali_power_a".
+Il primo assumerà solo due stati, *consuming* o *producing* invece il secondo darà un valore in Kw.
+Nel file di configurazione di HomeAssistant andremo a creare delle nuove entità:
+
+'''
+template:
+  - sensor:
+      - name: "consumo"
+        state: >
+          {% if states('sensor.power2canali_energy_flow_a') in 'consuming' %}{{ states('sensor.power2canali_power_a') }}
+          {% else %}
+            0
+          {% endif %}
+        unit_of_measurement: "W"
+        state_class: measurement
+        device_class: "power"
+        icon: mdi.transmission-tower-export
+      - name: "produzione"
+        state: >
+          {% if states('sensor.power2canali_energy_flow_a') in 'producing' %}{{ states('sensor.power2canali_power_a') }}
+          {% else %}
+            0
+          {% endif %}
+        unit_of_measurement: "W"
+        state_class: measurement
+        device_class: "power"
+        icon: mdi.transmission-tower-import
+
+sensor:
+  - platform: integration
+    source: sensor.consumo
+    name: energia_consumata
+    unit_prefix: k
+    unit_time: h
+    round: 2
+    method: left
+  - platform: integration
+    source: sensor.produzione
+    name: energia_prodotta
+    unit_prefix: k
+    unit_time: h
+    round: 2
+    method: left
+
+homeassistant:
+  customize:
+    sensor.energia_consumata:
+      state_class: total_increasing
+    sensor.energia_prodotta:
+      state_class: total_increasing
+'''
+
 
 
 
