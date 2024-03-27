@@ -34,4 +34,8 @@ Dopo aver alimentato le due unità sono subito state riconosciute all interno di
 ![Float Start](zigbee2mqttPower.png?fit=500x500) In questo caso i nomi dei due canali a e b non sono modificabile, sono istanze ancora all interno solo di zigbee2mqtt, le potremmo rinominare dentro a homeassistant.
 In questo caso il canale A è collegato alla fase del contatore quindi misura sostanzialmente la corrente che prendo e quella che cedo alla rete. B invece è collegato alla fase dell'impianto fotovoltaico.
 
+27/03/24
+Una volta collegate le due pinze come detto, posso verificare immediatamente dentro a
+
+
 
