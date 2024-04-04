@@ -1,17 +1,11 @@
- +++
-title = "Chromebook custome coereboot"
-date = "2024-04-04T22:20:16+01:00"
-author = "villo"
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["linux", "chromebook"]
-keywords = ["", ""]
-description = ""
-showFullContent = false
-readingTime = false
-hideComments = false
-color = "" #color from the theme settings
 +++
+title = "Chromebook coreboot"
+date = "2024-02-25T15:20:07+01:00"
+draft = false
+tags = ["chromebook", "linux"]
+author = ""
++++
+
 
 
 Questo progetto è molto interessante e permette di cambiare il bios proprietario installato sui computer chromebook di moltissime marche e modelli per poter installare un altro sistema operativo, nel mio caso Arch linux tramite EndevorOS.
