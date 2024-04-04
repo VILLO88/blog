@@ -1,11 +1,10 @@
 +++
-title = "Chromebook coreboot"
-date = "2024-04-04T15:20:07+01:00"
+title = "Chromebook"
+date = "2024-04-04T10:44:26+02:00"
 draft = false
-tags = ["chromebook", "linux"]
+tags = ["linux"]
 author = ""
 +++
-
 
 
 Questo progetto è molto interessante e permette di cambiare il bios proprietario installato sui computer chromebook di moltissime marche e modelli per poter installare un altro sistema operativo, nel mio caso Arch linux tramite EndevorOS.
@@ -48,5 +47,4 @@ cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh
 QUando lo chiede confermare con Y, si riavvierà, ridare lo stesso comando dopo il riavvio
 Selezionare 2 (complete UEFI) e lasciar andare.
 Una volta finito fare un reboot
-
 

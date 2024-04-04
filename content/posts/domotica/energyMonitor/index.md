@@ -91,5 +91,9 @@ homeassistant:
       state_class: total_increasing
 ```
 
+04/04/2024
 
+Una volta riavviato HomeAssistant troveremo le nuove entità disponibili per essere aggiunte alla dashboard energia.
+Dopo averle aggiunte il programma ci avviserà che dovremo attendere fino a 2 ore per avere a grafico dei valori corretti..ed ecco cosa ci troveremo dopo poche ore:
+![energy](energy.png?fit=500x500)
 
