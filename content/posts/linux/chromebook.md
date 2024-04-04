@@ -1,6 +1,6 @@
 +++
 title = "Chromebook coreboot"
-date = "2024-02-25T15:20:07+01:00"
+date = "2024-04-04T15:20:07+01:00"
 draft = false
 tags = ["chromebook", "linux"]
 author = ""
