@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on villo</title>
+    <link>http://localhost:1313/blog/posts/ai/</link>
+    <description>Recent content in AI on villo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 26 Feb 2024 21:42:03 +0100</lastBuildDate><atom:link href="http://localhost:1313/blog/posts/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Storie</title>
+      <link>http://localhost:1313/blog/posts/ai/storie/</link>
+      <pubDate>Mon, 26 Feb 2024 22:03:44 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/ai/storie/</guid>
+      <description>22:05 26/02/24
+In questa sezione spiegherò passo passo l&amp;rsquo;esperienza di ricerca e test dei vari strumenti generativi che fornisce ad oggi l&amp;rsquo;intelligenza artificiale per poter creare veri e propry story book per bambini di ogni età.
+la storia.. Il primo passo è sicuramente avere in mente più o meno il tema e i personaggi della nostra storia, o più storie..una volta avuta un&amp;rsquo;idea chiara possiamo passare a chiedere ad una ai di generare una storia e valutare se i risultati forniti sono in linea con quello che voglio, altrimenti cambiare il prompt fino ad ottenere il risultato voluto.</description>
+      <content>&lt;p&gt;22:05    26/02/24&lt;/p&gt;
+&lt;p&gt;In questa sezione spiegherò passo passo l&amp;rsquo;esperienza di ricerca e test dei vari strumenti generativi che fornisce ad oggi l&amp;rsquo;intelligenza artificiale per poter creare veri e propry story book per bambini di ogni età.&lt;/p&gt;
+&lt;h2 id=&#34;la-storia&#34;&gt;la storia..&lt;/h2&gt;
+&lt;p&gt;Il primo passo è sicuramente avere in mente più o meno il tema e i personaggi della nostra storia, o più storie..una volta avuta un&amp;rsquo;idea chiara possiamo passare a chiedere ad una ai di generare una storia e valutare se i risultati forniti sono in linea con quello che voglio, altrimenti cambiare il prompt fino ad ottenere il risultato voluto.
+Partirò con chatgpt 3.5 per semplicità.&lt;/p&gt;
+&lt;h2 id=&#34;il-prompt&#34;&gt;il prompt&lt;/h2&gt;
+&lt;p&gt;E&amp;rsquo; fondamentale fornire al LLM un prompt coerente e descrittivo al punto giusto in modo da dare abbastanza elementi al modello per poter costruire un racconto credibile, fornire un buon prompt può cambiare radicalmente il risultato a parità di strumento alla base.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;inventa una breve storia per bambini piccoli che parli di un gatto di nome Merlino e del suo amico Baghera che girando in campagna durante uno dei loro giri quotidiani, trovano un piccolo uccellino ferito e decidono di prendersene cura finchè non fosse guarito del tutto.Raccontalo come se il narratore fosse Baghera.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;il-risultato-generato&#34;&gt;il risultato generato&lt;/h2&gt;
+&lt;p&gt;Dopo un paio di ritocchi nel prompt e richieste di verifica finalmente ottengo una storia da sistemare ma ben fatta, considerando che è stata generata nel giro di pochi secondi è impressionante, è chiaro che una storia del genere potrei scriverla tranquillamente, ma l obiettivo è testare questi strumenti di intelligenza artificiale, e ricordiamoci che sto usando la versione gratuita..sarebbe interessare capire cosa può fare gpt4 o il nuovo google gemini a confronto col &amp;ldquo;vecchio gpt3.5&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Ciao, io sono Baghera, l&amp;rsquo;amico di Merlino, il gatto più coraggioso e gentile di tutta la campagna. Ti racconto la nostra avventura!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Un giorno, io e Merlino stavamo gironzolando tra gli alberi e i prati, felici di goderci la bellezza della natura. Ad un tratto, sentimmo un piccolo e flebile pigolio provenire da un cespuglio. Merlino, con le sue orecchie acute, si avvicinò e vide un piccolo uccellino ferito. Aveva una zampina rotta e sembrava molto spaventato.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Merlino, dobbiamo aiutarlo!&amp;rdquo; dissi con voce preoccupata.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Senza esitare, Merlino annuì e disse: &amp;ldquo;Certamente, Baghera. Prenderemo cura di lui finché non sarà di nuovo in salute.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Con delicatezza, Merlino prese l&amp;rsquo;uccellino tra le sue morbide zampe e lo portò nel nostro rifugio, un vecchio fienile abbandonato. Lì, preparammo un piccolo nido caldo e accogliente per il nostro nuovo amico. Gli portammo da mangiare e da bere ogni giorno, stando accanto a lui con amore e attenzione.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Le settimane passarono e l&amp;rsquo;uccellino iniziò a sentirsi meglio. La sua zampina si rimise in sesto e il suo pigolio diventava sempre più allegro. Era davvero emozionante vederlo tornare in forma!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Finalmente, arrivò il giorno in cui l&amp;rsquo;uccellino poté spiegare le sue ali e volare via, tornando libero tra gli alberi e i cieli.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Guardammo Merlino e io, felici e orgogliosi del nostro lavoro. Anche se l&amp;rsquo;uccellino se ne era andato, il legame che si era creato tra di noi era indelebile. Avevamo imparato che anche la più piccola creatura ha bisogno di amore e che insieme possiamo fare grandi cose.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Da allora, io e Merlino continuiamo a girare per la campagna, pronti ad aiutare chiunque incontri il nostro cammino. E così, la nostra amicizia e il nostro amore per gli animali crescono ogni giorno di più.&lt;/em&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

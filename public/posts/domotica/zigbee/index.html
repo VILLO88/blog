@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script>
+  
+    <title>Zigbee :: villo</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="15:12 Il protocollo Zigbee si differenzia dal normale protocollo wifi usato per esempio dai dispositivi Shelly in diversi aspetti, diciamo che di base con la tecnologia usata da shelly condivide solo la banda di frequenza utilizzata dei 2.4Ghz, del resto il sistema zigbee per trasferimento di piccoli pacchetti di dati è molto più efficente, di seguito alcune funzionalità:
+utilizzano un gateway per comunicare con il server, il che ha diversi pro, infatti il gateway può essere messo in diverse zone anche non per forza vicino al router wi-fi la trasmissione dei pacchetti avviene solo in funzione della necessità di comunicare uno stato(sensore) e quindi riduce l&amp;rsquo;inquinamento radio la funzione veramente più incredibile è quella della rete mesh, in pratica ipotizziamo di avere 3 dispositivi zigbee &#43; il gateway, il dispositivo 1 è un sensore a batteria e si trova vicino al gateway, il dispositivo 2 è un attuatore per tapparelle alimentato a 220v e si trova a metà circa della portata del gateway e il dispositivo 3 è un sensore a batteria che rispetto al gateway si troverebbe troppo lontano, ma relativamente vicino al dispositivo 2 che # funge da router ripetitore # e permette di estendere la comunicazione anche fino al sensore 3." />
+<meta name="keywords" content=", " />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:1313/blog/posts/domotica/zigbee/" />
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="http://localhost:1313/blog/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="http://localhost:1313/blog/img/theme-colors/orange.png">
+  <link rel="apple-touch-icon" href="http://localhost:1313/blog/img/theme-colors/orange.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Zigbee">
+<meta property="og:description" content="15:12 Il protocollo Zigbee si differenzia dal normale protocollo wifi usato per esempio dai dispositivi Shelly in diversi aspetti, diciamo che di base con la tecnologia usata da shelly condivide solo la banda di frequenza utilizzata dei 2.4Ghz, del resto il sistema zigbee per trasferimento di piccoli pacchetti di dati è molto più efficente, di seguito alcune funzionalità:
+utilizzano un gateway per comunicare con il server, il che ha diversi pro, infatti il gateway può essere messo in diverse zone anche non per forza vicino al router wi-fi la trasmissione dei pacchetti avviene solo in funzione della necessità di comunicare uno stato(sensore) e quindi riduce l&amp;rsquo;inquinamento radio la funzione veramente più incredibile è quella della rete mesh, in pratica ipotizziamo di avere 3 dispositivi zigbee &#43; il gateway, il dispositivo 1 è un sensore a batteria e si trova vicino al gateway, il dispositivo 2 è un attuatore per tapparelle alimentato a 220v e si trova a metà circa della portata del gateway e il dispositivo 3 è un sensore a batteria che rispetto al gateway si troverebbe troppo lontano, ma relativamente vicino al dispositivo 2 che # funge da router ripetitore # e permette di estendere la comunicazione anche fino al sensore 3." />
+<meta property="og:url" content="http://localhost:1313/blog/posts/domotica/zigbee/" />
+<meta property="og:site_name" content="villo" />
+
+  
+  
+  <meta property="og:image" content="http://localhost:1313/blog/">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2023-12-29 14:29:16 &#43;0100 CET" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="orange">
+
+
+<div class="container full headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/blog">
+  <div class="logo">
+    VilloBlog
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/blog/posts/ai">AI</a></li>
+        
+      
+        
+          <li><a href="/blog/posts/domotica">domotica</a></li>
+        
+      
+        
+          <li><a href="/blog/posts/elettronica">elettronica</a></li>
+        
+      
+        
+          <li><a href="/blog/posts/linux">linux</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/blog/posts/ai" >AI</a></li>
+        
+      
+        
+          <li><a href="/blog/posts/domotica" >domotica</a></li>
+        
+      
+        
+          <li><a href="/blog/posts/elettronica" >elettronica</a></li>
+        
+      
+      
+        <li>
+          <ul class="menu">
+            <li class="menu__trigger">&nbsp;▾</li>
+            <li>
+              <ul class="menu__dropdown">
+                
+                  
+                    <li><a href="/blog/posts/linux" >linux</a></li>
+                  
+                
+              </ul>
+            </li>
+          </ul>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/blog/posts/domotica/zigbee/">Zigbee</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2023-12-29</time><span class="post-author">villo</span></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="http://localhost:1313/blog/tags/domotica/">domotica</a>&nbsp;
+      
+      #<a href="http://localhost:1313/blog/tags/zigbee/">zigbee</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>15:12
+Il protocollo Zigbee si differenzia dal normale protocollo wifi usato per esempio dai dispositivi Shelly in diversi aspetti, diciamo che di base con la tecnologia usata da shelly condivide solo la banda di frequenza utilizzata dei 2.4Ghz, del resto il sistema zigbee <em>per trasferimento di piccoli pacchetti di dati</em> è molto più efficente, di seguito alcune funzionalità:</p>
+<ul>
+<li>utilizzano un gateway per comunicare con il server, il che ha diversi pro, infatti il gateway può essere messo in diverse zone anche non per forza vicino al router wi-fi</li>
+<li>la trasmissione dei pacchetti avviene solo in funzione della necessità di comunicare uno stato(sensore) e quindi riduce l&rsquo;inquinamento radio</li>
+<li>la funzione veramente più incredibile è quella della rete mesh, in pratica ipotizziamo di avere 3 dispositivi zigbee + il gateway, il dispositivo 1 è un sensore a batteria e si trova vicino al gateway, il dispositivo 2 è un attuatore per tapparelle alimentato a 220v e si trova a metà circa della portata del gateway e il dispositivo 3 è un sensore a batteria che rispetto al gateway si troverebbe troppo lontano, ma relativamente vicino al dispositivo 2 che # funge da router ripetitore # e permette di estendere la comunicazione anche fino al sensore 3.</li>
+</ul>
+<p>Modulo per le tapparelle che ho usato che funge anche da router per il segnale zigbee:
+
+<img src="tapparelle.jpg"  class="center"  style="border-radius: 8px;"    />
+
+</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h"></span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        <span class="button previous">
+            <a href="http://localhost:1313/blog/posts/domotica/energymonitor/">
+                <span class="button__icon">←</span>
+                <span class="button__text">HomeAssistant-EnergyDashboard</span>
+            </a>
+        </span>
+        
+        
+    </div>
+</div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2024 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/blog/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

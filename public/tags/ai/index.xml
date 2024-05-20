@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on villo</title>
+    <link>http://localhost:1313/blog/tags/ai/</link>
+    <description>Recent content in AI on villo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 26 Feb 2024 22:03:44 +0100</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Storie</title>
+      <link>http://localhost:1313/blog/posts/ai/storie/</link>
+      <pubDate>Mon, 26 Feb 2024 22:03:44 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/ai/storie/</guid>
+      <description>22:05 26/02/24
+In questa sezione spiegherò passo passo l&amp;rsquo;esperienza di ricerca e test dei vari strumenti generativi che fornisce ad oggi l&amp;rsquo;intelligenza artificiale per poter creare veri e propry story book per bambini di ogni età.
+la storia.. Il primo passo è sicuramente avere in mente più o meno il tema e i personaggi della nostra storia, o più storie..una volta avuta un&amp;rsquo;idea chiara possiamo passare a chiedere ad una ai di generare una storia e valutare se i risultati forniti sono in linea con quello che voglio, altrimenti cambiare il prompt fino ad ottenere il risultato voluto.</description>
+      <content>&lt;p&gt;22:05    26/02/24&lt;/p&gt;
+&lt;p&gt;In questa sezione spiegherò passo passo l&amp;rsquo;esperienza di ricerca e test dei vari strumenti generativi che fornisce ad oggi l&amp;rsquo;intelligenza artificiale per poter creare veri e propry story book per bambini di ogni età.&lt;/p&gt;
+&lt;h2 id=&#34;la-storia&#34;&gt;la storia..&lt;/h2&gt;
+&lt;p&gt;Il primo passo è sicuramente avere in mente più o meno il tema e i personaggi della nostra storia, o più storie..una volta avuta un&amp;rsquo;idea chiara possiamo passare a chiedere ad una ai di generare una storia e valutare se i risultati forniti sono in linea con quello che voglio, altrimenti cambiare il prompt fino ad ottenere il risultato voluto.
+Partirò con chatgpt 3.5 per semplicità.&lt;/p&gt;
+&lt;h2 id=&#34;il-prompt&#34;&gt;il prompt&lt;/h2&gt;
+&lt;p&gt;E&amp;rsquo; fondamentale fornire al LLM un prompt coerente e descrittivo al punto giusto in modo da dare abbastanza elementi al modello per poter costruire un racconto credibile, fornire un buon prompt può cambiare radicalmente il risultato a parità di strumento alla base.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;inventa una breve storia per bambini piccoli che parli di un gatto di nome Merlino e del suo amico Baghera che girando in campagna durante uno dei loro giri quotidiani, trovano un piccolo uccellino ferito e decidono di prendersene cura finchè non fosse guarito del tutto.Raccontalo come se il narratore fosse Baghera.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;il-risultato-generato&#34;&gt;il risultato generato&lt;/h2&gt;
+&lt;p&gt;Dopo un paio di ritocchi nel prompt e richieste di verifica finalmente ottengo una storia da sistemare ma ben fatta, considerando che è stata generata nel giro di pochi secondi è impressionante, è chiaro che una storia del genere potrei scriverla tranquillamente, ma l obiettivo è testare questi strumenti di intelligenza artificiale, e ricordiamoci che sto usando la versione gratuita..sarebbe interessare capire cosa può fare gpt4 o il nuovo google gemini a confronto col &amp;ldquo;vecchio gpt3.5&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Ciao, io sono Baghera, l&amp;rsquo;amico di Merlino, il gatto più coraggioso e gentile di tutta la campagna. Ti racconto la nostra avventura!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Un giorno, io e Merlino stavamo gironzolando tra gli alberi e i prati, felici di goderci la bellezza della natura. Ad un tratto, sentimmo un piccolo e flebile pigolio provenire da un cespuglio. Merlino, con le sue orecchie acute, si avvicinò e vide un piccolo uccellino ferito. Aveva una zampina rotta e sembrava molto spaventato.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Merlino, dobbiamo aiutarlo!&amp;rdquo; dissi con voce preoccupata.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Senza esitare, Merlino annuì e disse: &amp;ldquo;Certamente, Baghera. Prenderemo cura di lui finché non sarà di nuovo in salute.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Con delicatezza, Merlino prese l&amp;rsquo;uccellino tra le sue morbide zampe e lo portò nel nostro rifugio, un vecchio fienile abbandonato. Lì, preparammo un piccolo nido caldo e accogliente per il nostro nuovo amico. Gli portammo da mangiare e da bere ogni giorno, stando accanto a lui con amore e attenzione.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Le settimane passarono e l&amp;rsquo;uccellino iniziò a sentirsi meglio. La sua zampina si rimise in sesto e il suo pigolio diventava sempre più allegro. Era davvero emozionante vederlo tornare in forma!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Finalmente, arrivò il giorno in cui l&amp;rsquo;uccellino poté spiegare le sue ali e volare via, tornando libero tra gli alberi e i cieli.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Guardammo Merlino e io, felici e orgogliosi del nostro lavoro. Anche se l&amp;rsquo;uccellino se ne era andato, il legame che si era creato tra di noi era indelebile. Avevamo imparato che anche la più piccola creatura ha bisogno di amore e che insieme possiamo fare grandi cose.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Da allora, io e Merlino continuiamo a girare per la campagna, pronti ad aiutare chiunque incontri il nostro cammino. E così, la nostra amicizia e il nostro amore per gli animali crescono ogni giorno di più.&lt;/em&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>AI</title>
+      <link>http://localhost:1313/blog/posts/ai/</link>
+      <pubDate>Mon, 26 Feb 2024 21:42:03 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/ai/</guid>
+      <description>22:00 26/02/24.
+In questa sezione porterò le eseprienze fatte con l&amp;rsquo;uso di vari strumenti AI come large leanguage models e ai generative.
+Le prime cose che voglio fare sono:
+generazione di storie per bambini con ai generativa di immagini e testo trmite prompt, l obiettivo è di usare 2/3 strumenti separati per generare il testo le immagini e effettuare il montaggio per poter magari essere stampato in forma di libretti per bambini (canva?</description>
+      <content>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;22:00    26/02/24&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
+&lt;p&gt;In questa sezione porterò le eseprienze fatte con l&amp;rsquo;uso di vari strumenti AI come large leanguage models e ai generative.&lt;/p&gt;
+&lt;p&gt;Le prime cose che voglio fare sono:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;generazione di storie per bambini con ai generativa di immagini e testo trmite prompt, l obiettivo è di usare 2/3 strumenti separati per generare il testo le immagini e effettuare il montaggio per poter magari essere stampato in forma di libretti per bambini (canva??)&lt;/li&gt;
+&lt;li&gt;Sto sviluppando un bot di assistenza tecnica personalizzato per il mio lavoro. Ho scoperto un progetto open source molto interessante chiamato privateGPT che sembra adattarsi perfettamente alle mie esigenze. L&amp;rsquo;idea è creare un chatbot con un&amp;rsquo;interfaccia utente grafica che riceva prompt e utilizzi un Language Model (LLM) open source adeguatamente addestrato utilizzando documenti PDF forniti da me. Questo chatbot sarà in grado di rispondere in modo specifico a domande tecniche relative al mio settore lavorativo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La sfida principale non sarà tanto addestrare il modello, poiché privateGPT lo rende relativamente semplice, ma piuttosto pulire e preparare i dati che fornirò al modello. Questo includerà la traduzione dei PDF dall&amp;rsquo;inglese all&amp;rsquo;italiano e la correzione di eventuali appunti poco chiari per renderli più comprensibili al modello.&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;obiettivo è fattibile e il passo successivo sarà capire come integrare anche gli schemi elettrici. Per esempio, il chatbot dovrebbe essere in grado di rispondere a domande come: &amp;ldquo;Indicami a quali componenti è collegato il cavo con sigla X230 sulla macchina P5-350HS&amp;rdquo;. Questo strumento ha un enorme potenziale di crescita e sviluppo e potrebbe significativamente accelerare il processo di assistenza clienti.&lt;/p&gt;
+&lt;p&gt;Inoltre, è importante sottolineare che questo strumento garantirà alti livelli di privacy, poiché i documenti utilizzati rimarranno locali sulla macchina che ospita il modello e non saranno condivisi con terze parti come openAI.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on villo</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Home on villo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 29 Dec 2023 09:09:25 +0100</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robomower</title>
+      <link>http://localhost:1313/blog/posts/elettronica/robomower/</link>
+      <pubDate>Mon, 20 May 2024 14:29:16 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/elettronica/robomower/</guid>
+      <description>ROBOMOWER Con questo progetto andro&amp;rsquo; a realizzare un robot tagliaerba basato su visione artificiale, obiettivo del progetto creare un robot tagliaerba senza filo perimetrale per piccoli e piccolissimi giardini.
+obiettivi: basso consumo possibilita&amp;rsquo; di ricaria solare senza base visione artificiale per mappare giardino e analisi stato di salute giardino </description>
+      <content>&lt;h1 id=&#34;robomower&#34;&gt;ROBOMOWER&lt;/h1&gt;
+&lt;p&gt;Con questo progetto andro&amp;rsquo; a realizzare un robot tagliaerba basato su visione artificiale, obiettivo del progetto creare un robot tagliaerba senza filo perimetrale per piccoli e piccolissimi giardini.&lt;/p&gt;
+&lt;h2 id=&#34;obiettivi&#34;&gt;obiettivi:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;basso consumo&lt;/li&gt;
+&lt;li&gt;possibilita&amp;rsquo; di ricaria solare senza base&lt;/li&gt;
+&lt;li&gt;visione artificiale per mappare giardino e analisi stato di salute giardino&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Chromebook</title>
+      <link>http://localhost:1313/blog/posts/linux/chromebook/</link>
+      <pubDate>Thu, 04 Apr 2024 10:44:26 +0200</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/linux/chromebook/</guid>
+      <description>Questo progetto è molto interessante e permette di cambiare il bios proprietario installato sui computer chromebook di moltissime marche e modelli per poter installare un altro sistema operativo, nel mio caso Arch linux tramite EndevorOS. I chromebook sono macchine generalmente fatte per studenti o per utenti dalle necessità basiche di scrittura/lettura mail e navigazione, macchine basiche molto &amp;ldquo;plasticose&amp;rdquo; e con caratteristiche hardware basiche ma che poossono essere interessanti per alcuni aspetti.</description>
+      <content>&lt;p&gt;Questo progetto è molto interessante e permette di cambiare il bios proprietario installato sui computer chromebook di moltissime marche e modelli per poter installare un altro sistema operativo, nel mio caso Arch linux tramite EndevorOS.
+I chromebook sono macchine generalmente fatte per studenti o per utenti dalle necessità basiche di scrittura/lettura mail e navigazione, macchine basiche molto &amp;ldquo;plasticose&amp;rdquo; e con caratteristiche hardware basiche ma che poossono essere interessanti per alcuni aspetti..generalmente sono macchine poco potenti, con architettura X86 dual core con un TDP molto basso, questo permette di avere un pc a bassissimo consumo, quindi con una durata della batteria ottimale, un pc perfetto come seconda macchina di appoggio quando per esempio siamo in vacanza o fuori un weekend e non vogliamo portarci il nostro pc principale per paura di furti o di danneggiarlo.
+Io ho trovato a 50 euro un chromebook lenovo 100e di seconda generazione, monito e tastiera pessimi ma del resto una macchinetta perfetta, fanless e consumi bassissimi, in sleep ha un consumo ridicolo e la la batteria sembra infinita..anche nell&amp;rsquo;utilizzo base di scrittura la batteria sembra non scendere mai, merito del  bassissimo tdp del processore e di Linux che ottimizza al massimo i processi. Nel mio caso posso ottendere tranquillamente 10 ore di utilizzo base.
+Vediamo come fare per sostituire il bios, attenzione prima di acquistare un chromebook per questo progetto assicurarsi che sia compatibile, visitare la pagina ufficiale del progetto &lt;a href=&#34;https://mrchromebox.tech/#devices&#34;&gt;https://mrchromebox.tech/#devices&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;modello-lenovo-100e-2nd-gen&#34;&gt;modello lenovo 100e 2nd gen&lt;/h1&gt;
+&lt;p&gt;celeron N4020 gemini lake disco 32Giga e 4g di ram&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.reddit.com/r/chrultrabook/comments/aufp1q/getting_started_read_this_first/&#34;&gt;https://www.reddit.com/r/chrultrabook/comments/aufp1q/getting_started_read_this_first/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Per iniziare:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Put your device into Developer Mode&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Disable the hardware firmware write protect, method varies by device&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Flash the UEFI Firmware&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;developer-mode&#34;&gt;developer mode&lt;/h2&gt;
+&lt;p&gt;Con pc spento premere ESC + REFRESH(simbolo freccina che ruota) e power on
+Enabling Developer Mode&lt;/p&gt;
+&lt;p&gt;Entering Developer Mode requires you to first boot into Recovery Mode. For Chromebooks, this means pressing [ESC+Refresh+Power]; On Chromeboxes, there is usually a physical recovery button (often a small hole above the SD card reader) which must be depressed when powering on. Once at the recovery screen, press [CTRL+D] to enable developer mode, then confirm when prompted. As a security measure, transitioning to/from Developer Mode will wipe out all ChromeOS user data, essentially powerwashing (resetting) the device.
+Dopo circa 5 minuti il pc si riavvia, &lt;em&gt;non toccare niente fino a che non senti doppio beep e si riavvia da solo&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Spengo, stacco la batteria(nel mio caso ), la lascion staccata poi attacco l alimentatore(attenzione con quello cinese non parte)
+Accendo faccio partire e mi collego a una rete wifi
+DOpo essersi riavviato parte in automatico un chromeos pulito, una volta partito premento ctrl+alt+F2 (simbolo freccia a dx) entro nella shell amministratore.
+Utente :chronos
+Non richiede password
+Essendo connessi a internet:
+cd; curl -LO mrchromebox.tech/firmware-util.sh &amp;amp;&amp;amp; sudo bash firmware-util.sh
+QUando lo chiede confermare con Y, si riavvierà, ridare lo stesso comando dopo il riavvio
+Selezionare 2 (complete UEFI) e lasciar andare.
+Una volta finito fare un reboot&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>HomeAssistant-EnergyDashboard</title>
+      <link>http://localhost:1313/blog/posts/domotica/energymonitor/</link>
+      <pubDate>Thu, 21 Mar 2024 23:20:16 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/domotica/energymonitor/</guid>
+      <description>22:19 del 21/03/24
+Finalmente nei giorni scorsi ho terminato la sostituzione del vecchio quadro elettrico con uno nuovo più grande dove poter fare alloggiare il nuovo sensore/interuttore &amp;ldquo;intelligente&amp;rdquo; che andrà a pilotare il caricatore dell&amp;rsquo;auto elettrica (Dacia Spring) e il sensore di corrente a doppia pinza sempre zigbee.
+I due prodotti sono questi:
+Il sensore tuya di sinistra non è altro che un interruttore zigbee con misurazione della potenza istantanea, inoltre ha alcune funzioni &amp;ldquo;intelligenti&amp;rdquo; di protezione con soglie programmabili, ad esempio può staccare il carico se superata una certa corrente o soglia di voltaggio, molto utile se si vuole prevenire danni.</description>
+      <content>&lt;p&gt;22:19 del 21/03/24&lt;/p&gt;
+&lt;p&gt;Finalmente nei giorni scorsi ho terminato la sostituzione del vecchio quadro elettrico con uno nuovo più grande
+dove poter fare alloggiare il nuovo sensore/interuttore &amp;ldquo;intelligente&amp;rdquo; che andrà a pilotare il caricatore dell&amp;rsquo;auto elettrica (Dacia Spring) e il sensore di corrente a doppia pinza sempre zigbee.&lt;/p&gt;
+&lt;p&gt;I due prodotti sono questi:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    
+  &lt;picture&gt;
+    &lt;source srcset=&#34;http://localhost:1313/blog/posts/domotica/energymonitor/power1_hu9752cb5998a77c0d8cff8273c4892cec_36660_d80ca10ac78e177ba8340f1a1bb5f894.webp&#34; type=&#34;image/webp&#34; /&gt;
+  &lt;img class=&#34;img-fluid&#34; src=&#34;http://localhost:1313/blog/posts/domotica/energymonitor/power1_hu9752cb5998a77c0d8cff8273c4892cec_36660_500x500_fit_q75_box.050565ae2b9bffedc5a33f149c57c36d.jpg&#34; alt=&#34;Fit Image&#34; loading=&#34;lazy&#34; height=&#34;500&#34; width=&#34;500&#34; /&gt;
+&lt;/picture&gt;
+&lt;/th&gt;
+&lt;th&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    
+  &lt;picture&gt;
+    &lt;source srcset=&#34;http://localhost:1313/blog/posts/domotica/energymonitor/power2_hufd90748f9c3d898310556a84836c90f2_24194_3f1ea52669cbc6e49f9ca30cff9f972f.webp&#34; type=&#34;image/webp&#34; /&gt;
+  &lt;img class=&#34;img-fluid&#34; src=&#34;http://localhost:1313/blog/posts/domotica/energymonitor/power2_hufd90748f9c3d898310556a84836c90f2_24194_500x500_fit_q75_box.10695e392311eb50d92dc9df6854988a.jpg&#34; alt=&#34;Fit Image&#34; loading=&#34;lazy&#34; height=&#34;500&#34; width=&#34;500&#34; /&gt;
+&lt;/picture&gt;
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;/table&gt;
+&lt;p&gt;Il sensore tuya di sinistra non è altro che un interruttore zigbee con misurazione della potenza istantanea, inoltre ha
+alcune funzioni &amp;ldquo;intelligenti&amp;rdquo; di protezione con soglie programmabili, ad esempio può staccare il carico se superata una certa corrente o soglia di voltaggio, molto utile se si vuole prevenire danni.
+Possiede inoltre un piccolo pulsante tattile sul fronte per attivare o disattivare il carico.&lt;/p&gt;
+&lt;p&gt;Il secondo sensore è solo un sensore di potenza istantanea misurata questa volta tramite pinza amperometrica che andrà posizionata sulla fase che ci interessa misurare facendo attenzione anche al verso col quale posizioniamo la pinza, perchè questi sensori forniscono non solo la potenza istantanea in Kw ma anche la &lt;em&gt;direzione&lt;/em&gt; della corrente, in questo modo è possibile stabilire se il valore riportato è potenza prodotta per esempio dall&amp;rsquo;impianto fotovoltaico oppure potenza prelevata dalla rete.
+Nel mio caso ho posizionato una pinza sulla fase subito dopo il contatore e l&amp;rsquo;altra sulla fase di ritorno dall&amp;rsquo;inverter fotovoltaico.&lt;/p&gt;
+&lt;p&gt;Dopo aver alimentato le due unità sono subito state riconosciute all interno di zigbee2mqtt e ho potuto fare i primi test proprio tramite la piattaforma zigbee2mqtt che permette di vedere i valori in tempo reale:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    
+  &lt;picture&gt;
+    &lt;source srcset=&#34;http://localhost:1313/blog/posts/domotica/energymonitor/zigbee2mqttPower_huf92b846db43cb63b8af6f21c93aa0718_137374_e5e29124a3b20ebb90e0b81c5c3cec7e.webp&#34; type=&#34;image/webp&#34; /&gt;
+  &lt;img class=&#34;img-fluid&#34; src=&#34;http://localhost:1313/blog/posts/domotica/energymonitor/zigbee2mqttPower_huf92b846db43cb63b8af6f21c93aa0718_137374_500x500_fit_box_3.16905242877c481320837ee1d170731a.png&#34; alt=&#34;Float Start&#34; loading=&#34;lazy&#34; height=&#34;482&#34; width=&#34;500&#34; /&gt;
+&lt;/picture&gt;
+ In questo caso i nomi dei due canali a e b non sono modificabile, sono istanze ancora all interno solo di zigbee2mqtt, le potremmo rinominare dentro a homeassistant.
+In questo caso il canale A è collegato alla fase del contatore quindi misura sostanzialmente la corrente che prendo e quella che cedo alla rete. B invece è collegato alla fase dell&amp;rsquo;impianto fotovoltaico.&lt;/p&gt;
+&lt;p&gt;27/03/24
+Una volta collegate le due pinze come detto, posso verificare immediatamente da zigbee2Mqtt se il &amp;ldquo;verso&amp;rdquo; della corrente e la lettura della potenza istantanea sono corretti.&lt;/p&gt;
+&lt;p&gt;Fatto questo check possiamo passare a HomeAssistant, dove sarà il lavoro più grande di configurazione, poichè noi abbiamo delle entità nuove che ci forniscono valori di potenza instantanea, perfetti per una power dashboard, ma noi vogliamo anche integrare una energy dashboard.
+Per fare questo dobbiamo creare delle nuove entità tramite la configurazione di &lt;em&gt;integrazioni&lt;/em&gt;
+La prima cosa da fare sicuramente è segnarci come si chiamano su HomeAssistant le entità che ci forniscono i dati di potenza istantanea e &amp;ldquo;direzione&amp;rdquo; di corrente, nel mio caso si chiameranno &amp;ldquo;sensor.power2canali_energy_flow_a&amp;rdquo; e &amp;ldquo;sensor.power2canali_power_a&amp;rdquo;.
+Il primo assumerà solo due stati, &lt;em&gt;consuming&lt;/em&gt; o &lt;em&gt;producing&lt;/em&gt; invece il secondo darà un valore in Kw.
+Nel file di configurazione di HomeAssistant andremo a creare delle nuove entità:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;template:
+  - sensor:
+      - name: &amp;#34;consumo&amp;#34;
+        state: &amp;gt;
+          {% if states(&amp;#39;sensor.power2canali_energy_flow_a&amp;#39;) in &amp;#39;consuming&amp;#39; %}{{ states(&amp;#39;sensor.power2canali_power_a&amp;#39;) }}
+          {% else %}
+            0
+          {% endif %}
+        unit_of_measurement: &amp;#34;W&amp;#34;
+        state_class: measurement
+        device_class: &amp;#34;power&amp;#34;
+        icon: mdi.transmission-tower-export
+      - name: &amp;#34;produzione&amp;#34;
+        state: &amp;gt;
+          {% if states(&amp;#39;sensor.power2canali_energy_flow_a&amp;#39;) in &amp;#39;producing&amp;#39; %}{{ states(&amp;#39;sensor.power2canali_power_a&amp;#39;) }}
+          {% else %}
+            0
+          {% endif %}
+        unit_of_measurement: &amp;#34;W&amp;#34;
+        state_class: measurement
+        device_class: &amp;#34;power&amp;#34;
+        icon: mdi.transmission-tower-import
+
+sensor:
+  - platform: integration
+    source: sensor.consumo
+    name: energia_consumata
+    unit_prefix: k
+    unit_time: h
+    round: 2
+    method: left
+  - platform: integration
+    source: sensor.produzione
+    name: energia_prodotta
+    unit_prefix: k
+    unit_time: h
+    round: 2
+    method: left
+
+homeassistant:
+  customize:
+    sensor.energia_consumata:
+      state_class: total_increasing
+    sensor.energia_prodotta:
+      state_class: total_increasing
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;04/04/2024&lt;/p&gt;
+&lt;p&gt;Una volta riavviato HomeAssistant troveremo le nuove entità disponibili per essere aggiunte alla dashboard energia.
+Dopo averle aggiunte il programma ci avviserà che dovremo attendere fino a 2 ore per avere a grafico dei valori corretti..ed ecco cosa ci troveremo dopo poche ore:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    
+  &lt;picture&gt;
+    &lt;source srcset=&#34;http://localhost:1313/blog/posts/domotica/energymonitor/energy_hu19d9c3e75b71067ddf8a02f983d66672_484888_bbc48af2e239cba19bf8b9e77ac91c1a.webp&#34; type=&#34;image/webp&#34; /&gt;
+  &lt;img class=&#34;img-fluid&#34; src=&#34;http://localhost:1313/blog/posts/domotica/energymonitor/energy_hu19d9c3e75b71067ddf8a02f983d66672_484888_500x500_fit_box_3.588e89a0c7aea5fa5ccfac189c28f0b7.png&#34; alt=&#34;energy&#34; loading=&#34;lazy&#34; height=&#34;500&#34; width=&#34;384&#34; /&gt;
+&lt;/picture&gt;
+&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Storie</title>
+      <link>http://localhost:1313/blog/posts/ai/storie/</link>
+      <pubDate>Mon, 26 Feb 2024 22:03:44 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/ai/storie/</guid>
+      <description>22:05 26/02/24
+In questa sezione spiegherò passo passo l&amp;rsquo;esperienza di ricerca e test dei vari strumenti generativi che fornisce ad oggi l&amp;rsquo;intelligenza artificiale per poter creare veri e propry story book per bambini di ogni età.
+la storia.. Il primo passo è sicuramente avere in mente più o meno il tema e i personaggi della nostra storia, o più storie..una volta avuta un&amp;rsquo;idea chiara possiamo passare a chiedere ad una ai di generare una storia e valutare se i risultati forniti sono in linea con quello che voglio, altrimenti cambiare il prompt fino ad ottenere il risultato voluto.</description>
+      <content>&lt;p&gt;22:05    26/02/24&lt;/p&gt;
+&lt;p&gt;In questa sezione spiegherò passo passo l&amp;rsquo;esperienza di ricerca e test dei vari strumenti generativi che fornisce ad oggi l&amp;rsquo;intelligenza artificiale per poter creare veri e propry story book per bambini di ogni età.&lt;/p&gt;
+&lt;h2 id=&#34;la-storia&#34;&gt;la storia..&lt;/h2&gt;
+&lt;p&gt;Il primo passo è sicuramente avere in mente più o meno il tema e i personaggi della nostra storia, o più storie..una volta avuta un&amp;rsquo;idea chiara possiamo passare a chiedere ad una ai di generare una storia e valutare se i risultati forniti sono in linea con quello che voglio, altrimenti cambiare il prompt fino ad ottenere il risultato voluto.
+Partirò con chatgpt 3.5 per semplicità.&lt;/p&gt;
+&lt;h2 id=&#34;il-prompt&#34;&gt;il prompt&lt;/h2&gt;
+&lt;p&gt;E&amp;rsquo; fondamentale fornire al LLM un prompt coerente e descrittivo al punto giusto in modo da dare abbastanza elementi al modello per poter costruire un racconto credibile, fornire un buon prompt può cambiare radicalmente il risultato a parità di strumento alla base.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;inventa una breve storia per bambini piccoli che parli di un gatto di nome Merlino e del suo amico Baghera che girando in campagna durante uno dei loro giri quotidiani, trovano un piccolo uccellino ferito e decidono di prendersene cura finchè non fosse guarito del tutto.Raccontalo come se il narratore fosse Baghera.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;il-risultato-generato&#34;&gt;il risultato generato&lt;/h2&gt;
+&lt;p&gt;Dopo un paio di ritocchi nel prompt e richieste di verifica finalmente ottengo una storia da sistemare ma ben fatta, considerando che è stata generata nel giro di pochi secondi è impressionante, è chiaro che una storia del genere potrei scriverla tranquillamente, ma l obiettivo è testare questi strumenti di intelligenza artificiale, e ricordiamoci che sto usando la versione gratuita..sarebbe interessare capire cosa può fare gpt4 o il nuovo google gemini a confronto col &amp;ldquo;vecchio gpt3.5&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Ciao, io sono Baghera, l&amp;rsquo;amico di Merlino, il gatto più coraggioso e gentile di tutta la campagna. Ti racconto la nostra avventura!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Un giorno, io e Merlino stavamo gironzolando tra gli alberi e i prati, felici di goderci la bellezza della natura. Ad un tratto, sentimmo un piccolo e flebile pigolio provenire da un cespuglio. Merlino, con le sue orecchie acute, si avvicinò e vide un piccolo uccellino ferito. Aveva una zampina rotta e sembrava molto spaventato.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Merlino, dobbiamo aiutarlo!&amp;rdquo; dissi con voce preoccupata.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Senza esitare, Merlino annuì e disse: &amp;ldquo;Certamente, Baghera. Prenderemo cura di lui finché non sarà di nuovo in salute.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Con delicatezza, Merlino prese l&amp;rsquo;uccellino tra le sue morbide zampe e lo portò nel nostro rifugio, un vecchio fienile abbandonato. Lì, preparammo un piccolo nido caldo e accogliente per il nostro nuovo amico. Gli portammo da mangiare e da bere ogni giorno, stando accanto a lui con amore e attenzione.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Le settimane passarono e l&amp;rsquo;uccellino iniziò a sentirsi meglio. La sua zampina si rimise in sesto e il suo pigolio diventava sempre più allegro. Era davvero emozionante vederlo tornare in forma!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Finalmente, arrivò il giorno in cui l&amp;rsquo;uccellino poté spiegare le sue ali e volare via, tornando libero tra gli alberi e i cieli.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Guardammo Merlino e io, felici e orgogliosi del nostro lavoro. Anche se l&amp;rsquo;uccellino se ne era andato, il legame che si era creato tra di noi era indelebile. Avevamo imparato che anche la più piccola creatura ha bisogno di amore e che insieme possiamo fare grandi cose.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Da allora, io e Merlino continuiamo a girare per la campagna, pronti ad aiutare chiunque incontri il nostro cammino. E così, la nostra amicizia e il nostro amore per gli animali crescono ogni giorno di più.&lt;/em&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Alpine su nebook</title>
+      <link>http://localhost:1313/blog/posts/linux/alpine/</link>
+      <pubDate>Sun, 25 Feb 2024 15:20:07 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/linux/alpine/</guid>
+      <description>Alpine linux è una distribuzione Linux veloce ed affidabile, che utilizza openrc invece di systemd, è particolarmente apprezzata in ambiente docker per la sua leggerezza e sicurezza.
+Quello che farò è usare questa distro molto leggera per farla girare su un vecchio netbook 10 pollici, un samsung N150, con processore N450 single core due threads 1.66Ghz con ram da 1GB..decisamente pochi per far girare qualsiasi OS moderno con server grafici pesanti, per questo lo farò più leggero possibile con un tile-window manager (probabilmente i3wm).</description>
+      <content>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  &lt;/p&gt;
+&lt;p&gt;Alpine linux è una distribuzione Linux &lt;strong&gt;veloce&lt;/strong&gt; ed &lt;strong&gt;affidabile&lt;/strong&gt;, che utilizza openrc invece di systemd, è particolarmente apprezzata in ambiente docker per la sua leggerezza e sicurezza.&lt;/p&gt;
+&lt;p&gt;Quello che farò è usare questa distro molto leggera per farla girare su un vecchio netbook 10 pollici, un &lt;strong&gt;samsung N150&lt;/strong&gt;, con processore N450 single core due threads 1.66Ghz con ram da 1GB..decisamente pochi per far girare qualsiasi OS moderno con server grafici pesanti, per questo lo farò più leggero possibile con un tile-window manager (probabilmente i3wm).&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Post1</title>
+      <link>http://localhost:1313/blog/posts/linux/asahi/post1/</link>
+      <pubDate>Sun, 25 Feb 2024 14:26:13 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/linux/asahi/post1/</guid>
+      <description>post1 lalalallalalala</description>
+      <content>&lt;h2 id=&#34;post1&#34;&gt;post1&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+      
+      
+  &lt;picture&gt;
+  &lt;img class=&#34;img-fluid&#34; src=&#34;http://localhost:1313/blog/asahiM1.png?v=071a19c34ffb5c84aa52bcf0a4c459b5&#34; alt=&#34;Test&#34; loading=&#34;lazy&#34; height=&#34;720px&#34; width=&#34;1280px&#34; /&gt;
+&lt;/picture&gt;
+
+lalalallalalala&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Spotwelder</title>
+      <link>http://localhost:1313/blog/posts/elettronica/lab/</link>
+      <pubDate>Fri, 29 Dec 2023 14:29:16 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/elettronica/lab/</guid>
+      <description>In questo post andremo a parlare della tecnica di spot-welding usatissima per saldare i pacchi batteria delle celle 18650 li-ion</description>
+      <content>&lt;p&gt;In questo post andremo a parlare della tecnica di spot-welding usatissima per saldare i pacchi batteria delle celle 18650 li-ion&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Zigbee</title>
+      <link>http://localhost:1313/blog/posts/domotica/zigbee/</link>
+      <pubDate>Fri, 29 Dec 2023 14:29:16 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/domotica/zigbee/</guid>
+      <description>15:12 Il protocollo Zigbee si differenzia dal normale protocollo wifi usato per esempio dai dispositivi Shelly in diversi aspetti, diciamo che di base con la tecnologia usata da shelly condivide solo la banda di frequenza utilizzata dei 2.4Ghz, del resto il sistema zigbee per trasferimento di piccoli pacchetti di dati è molto più efficente, di seguito alcune funzionalità:
+utilizzano un gateway per comunicare con il server, il che ha diversi pro, infatti il gateway può essere messo in diverse zone anche non per forza vicino al router wi-fi la trasmissione dei pacchetti avviene solo in funzione della necessità di comunicare uno stato(sensore) e quindi riduce l&amp;rsquo;inquinamento radio la funzione veramente più incredibile è quella della rete mesh, in pratica ipotizziamo di avere 3 dispositivi zigbee + il gateway, il dispositivo 1 è un sensore a batteria e si trova vicino al gateway, il dispositivo 2 è un attuatore per tapparelle alimentato a 220v e si trova a metà circa della portata del gateway e il dispositivo 3 è un sensore a batteria che rispetto al gateway si troverebbe troppo lontano, ma relativamente vicino al dispositivo 2 che # funge da router ripetitore # e permette di estendere la comunicazione anche fino al sensore 3.</description>
+      <content>&lt;p&gt;15:12
+Il protocollo Zigbee si differenzia dal normale protocollo wifi usato per esempio dai dispositivi Shelly in diversi aspetti, diciamo che di base con la tecnologia usata da shelly condivide solo la banda di frequenza utilizzata dei 2.4Ghz, del resto il sistema zigbee &lt;em&gt;per trasferimento di piccoli pacchetti di dati&lt;/em&gt; è molto più efficente, di seguito alcune funzionalità:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;utilizzano un gateway per comunicare con il server, il che ha diversi pro, infatti il gateway può essere messo in diverse zone anche non per forza vicino al router wi-fi&lt;/li&gt;
+&lt;li&gt;la trasmissione dei pacchetti avviene solo in funzione della necessità di comunicare uno stato(sensore) e quindi riduce l&amp;rsquo;inquinamento radio&lt;/li&gt;
+&lt;li&gt;la funzione veramente più incredibile è quella della rete mesh, in pratica ipotizziamo di avere 3 dispositivi zigbee + il gateway, il dispositivo 1 è un sensore a batteria e si trova vicino al gateway, il dispositivo 2 è un attuatore per tapparelle alimentato a 220v e si trova a metà circa della portata del gateway e il dispositivo 3 è un sensore a batteria che rispetto al gateway si troverebbe troppo lontano, ma relativamente vicino al dispositivo 2 che # funge da router ripetitore # e permette di estendere la comunicazione anche fino al sensore 3.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Modulo per le tapparelle che ho usato che funge anche da router per il segnale zigbee:
+
+&lt;img src=&#34;tapparelle.jpg&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

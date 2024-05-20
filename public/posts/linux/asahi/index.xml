@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Asahi remix on villo</title>
+    <link>http://localhost:1313/blog/posts/linux/asahi/</link>
+    <description>Recent content in Asahi remix on villo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Feb 2024 14:29:16 +0100</lastBuildDate><atom:link href="http://localhost:1313/blog/posts/linux/asahi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post1</title>
+      <link>http://localhost:1313/blog/posts/linux/asahi/post1/</link>
+      <pubDate>Sun, 25 Feb 2024 14:26:13 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/linux/asahi/post1/</guid>
+      <description>post1 lalalallalalala</description>
+      <content>&lt;h2 id=&#34;post1&#34;&gt;post1&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+      
+      
+  &lt;picture&gt;
+  &lt;img class=&#34;img-fluid&#34; src=&#34;http://localhost:1313/blog/asahiM1.png?v=071a19c34ffb5c84aa52bcf0a4c459b5&#34; alt=&#34;Test&#34; loading=&#34;lazy&#34; height=&#34;720px&#34; width=&#34;1280px&#34; /&gt;
+&lt;/picture&gt;
+
+lalalallalalala&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

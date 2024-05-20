@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on villo</title>
+    <link>http://localhost:1313/blog/posts/linux/</link>
+    <description>Recent content in Linux on villo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Feb 2024 11:52:41 +0100</lastBuildDate><atom:link href="http://localhost:1313/blog/posts/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chromebook</title>
+      <link>http://localhost:1313/blog/posts/linux/chromebook/</link>
+      <pubDate>Thu, 04 Apr 2024 10:44:26 +0200</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/linux/chromebook/</guid>
+      <description>Questo progetto è molto interessante e permette di cambiare il bios proprietario installato sui computer chromebook di moltissime marche e modelli per poter installare un altro sistema operativo, nel mio caso Arch linux tramite EndevorOS. I chromebook sono macchine generalmente fatte per studenti o per utenti dalle necessità basiche di scrittura/lettura mail e navigazione, macchine basiche molto &amp;ldquo;plasticose&amp;rdquo; e con caratteristiche hardware basiche ma che poossono essere interessanti per alcuni aspetti.</description>
+      <content>&lt;p&gt;Questo progetto è molto interessante e permette di cambiare il bios proprietario installato sui computer chromebook di moltissime marche e modelli per poter installare un altro sistema operativo, nel mio caso Arch linux tramite EndevorOS.
+I chromebook sono macchine generalmente fatte per studenti o per utenti dalle necessità basiche di scrittura/lettura mail e navigazione, macchine basiche molto &amp;ldquo;plasticose&amp;rdquo; e con caratteristiche hardware basiche ma che poossono essere interessanti per alcuni aspetti..generalmente sono macchine poco potenti, con architettura X86 dual core con un TDP molto basso, questo permette di avere un pc a bassissimo consumo, quindi con una durata della batteria ottimale, un pc perfetto come seconda macchina di appoggio quando per esempio siamo in vacanza o fuori un weekend e non vogliamo portarci il nostro pc principale per paura di furti o di danneggiarlo.
+Io ho trovato a 50 euro un chromebook lenovo 100e di seconda generazione, monito e tastiera pessimi ma del resto una macchinetta perfetta, fanless e consumi bassissimi, in sleep ha un consumo ridicolo e la la batteria sembra infinita..anche nell&amp;rsquo;utilizzo base di scrittura la batteria sembra non scendere mai, merito del  bassissimo tdp del processore e di Linux che ottimizza al massimo i processi. Nel mio caso posso ottendere tranquillamente 10 ore di utilizzo base.
+Vediamo come fare per sostituire il bios, attenzione prima di acquistare un chromebook per questo progetto assicurarsi che sia compatibile, visitare la pagina ufficiale del progetto &lt;a href=&#34;https://mrchromebox.tech/#devices&#34;&gt;https://mrchromebox.tech/#devices&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;modello-lenovo-100e-2nd-gen&#34;&gt;modello lenovo 100e 2nd gen&lt;/h1&gt;
+&lt;p&gt;celeron N4020 gemini lake disco 32Giga e 4g di ram&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.reddit.com/r/chrultrabook/comments/aufp1q/getting_started_read_this_first/&#34;&gt;https://www.reddit.com/r/chrultrabook/comments/aufp1q/getting_started_read_this_first/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Per iniziare:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Put your device into Developer Mode&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Disable the hardware firmware write protect, method varies by device&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Flash the UEFI Firmware&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;developer-mode&#34;&gt;developer mode&lt;/h2&gt;
+&lt;p&gt;Con pc spento premere ESC + REFRESH(simbolo freccina che ruota) e power on
+Enabling Developer Mode&lt;/p&gt;
+&lt;p&gt;Entering Developer Mode requires you to first boot into Recovery Mode. For Chromebooks, this means pressing [ESC+Refresh+Power]; On Chromeboxes, there is usually a physical recovery button (often a small hole above the SD card reader) which must be depressed when powering on. Once at the recovery screen, press [CTRL+D] to enable developer mode, then confirm when prompted. As a security measure, transitioning to/from Developer Mode will wipe out all ChromeOS user data, essentially powerwashing (resetting) the device.
+Dopo circa 5 minuti il pc si riavvia, &lt;em&gt;non toccare niente fino a che non senti doppio beep e si riavvia da solo&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Spengo, stacco la batteria(nel mio caso ), la lascion staccata poi attacco l alimentatore(attenzione con quello cinese non parte)
+Accendo faccio partire e mi collego a una rete wifi
+DOpo essersi riavviato parte in automatico un chromeos pulito, una volta partito premento ctrl+alt+F2 (simbolo freccia a dx) entro nella shell amministratore.
+Utente :chronos
+Non richiede password
+Essendo connessi a internet:
+cd; curl -LO mrchromebox.tech/firmware-util.sh &amp;amp;&amp;amp; sudo bash firmware-util.sh
+QUando lo chiede confermare con Y, si riavvierà, ridare lo stesso comando dopo il riavvio
+Selezionare 2 (complete UEFI) e lasciar andare.
+Una volta finito fare un reboot&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Alpine su nebook</title>
+      <link>http://localhost:1313/blog/posts/linux/alpine/</link>
+      <pubDate>Sun, 25 Feb 2024 15:20:07 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/linux/alpine/</guid>
+      <description>Alpine linux è una distribuzione Linux veloce ed affidabile, che utilizza openrc invece di systemd, è particolarmente apprezzata in ambiente docker per la sua leggerezza e sicurezza.
+Quello che farò è usare questa distro molto leggera per farla girare su un vecchio netbook 10 pollici, un samsung N150, con processore N450 single core due threads 1.66Ghz con ram da 1GB..decisamente pochi per far girare qualsiasi OS moderno con server grafici pesanti, per questo lo farò più leggero possibile con un tile-window manager (probabilmente i3wm).</description>
+      <content>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  &lt;/p&gt;
+&lt;p&gt;Alpine linux è una distribuzione Linux &lt;strong&gt;veloce&lt;/strong&gt; ed &lt;strong&gt;affidabile&lt;/strong&gt;, che utilizza openrc invece di systemd, è particolarmente apprezzata in ambiente docker per la sua leggerezza e sicurezza.&lt;/p&gt;
+&lt;p&gt;Quello che farò è usare questa distro molto leggera per farla girare su un vecchio netbook 10 pollici, un &lt;strong&gt;samsung N150&lt;/strong&gt;, con processore N450 single core due threads 1.66Ghz con ram da 1GB..decisamente pochi per far girare qualsiasi OS moderno con server grafici pesanti, per questo lo farò più leggero possibile con un tile-window manager (probabilmente i3wm).&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

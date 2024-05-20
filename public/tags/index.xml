@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on villo</title>
+    <link>http://localhost:1313/blog/tags/</link>
+    <description>Recent content in Tags on villo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 20 May 2024 14:29:16 +0100</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elettronica</title>
+      <link>http://localhost:1313/blog/tags/elettronica/</link>
+      <pubDate>Mon, 20 May 2024 14:29:16 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/tags/elettronica/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Robomower</title>
+      <link>http://localhost:1313/blog/tags/robomower/</link>
+      <pubDate>Mon, 20 May 2024 14:29:16 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/tags/robomower/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Robot</title>
+      <link>http://localhost:1313/blog/tags/robot/</link>
+      <pubDate>Mon, 20 May 2024 14:29:16 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/tags/robot/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/blog/tags/linux/</link>
+      <pubDate>Thu, 04 Apr 2024 10:44:26 +0200</pubDate>
+      
+      <guid>http://localhost:1313/blog/tags/linux/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Domotica</title>
+      <link>http://localhost:1313/blog/tags/domotica/</link>
+      <pubDate>Thu, 21 Mar 2024 23:20:16 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/tags/domotica/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Hass</title>
+      <link>http://localhost:1313/blog/tags/hass/</link>
+      <pubDate>Thu, 21 Mar 2024 23:20:16 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/tags/hass/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Zigbee</title>
+      <link>http://localhost:1313/blog/tags/zigbee/</link>
+      <pubDate>Thu, 21 Mar 2024 23:20:16 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/tags/zigbee/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>AI</title>
+      <link>http://localhost:1313/blog/tags/ai/</link>
+      <pubDate>Mon, 26 Feb 2024 22:03:44 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/tags/ai/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Alpine</title>
+      <link>http://localhost:1313/blog/tags/alpine/</link>
+      <pubDate>Sun, 25 Feb 2024 15:20:07 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/tags/alpine/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Asahi</title>
+      <link>http://localhost:1313/blog/tags/asahi/</link>
+      <pubDate>Sun, 25 Feb 2024 14:26:13 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/tags/asahi/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>M1</title>
+      <link>http://localhost:1313/blog/tags/m1/</link>
+      <pubDate>Thu, 01 Feb 2024 14:29:16 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/tags/m1/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>18650</title>
+      <link>http://localhost:1313/blog/tags/18650/</link>
+      <pubDate>Fri, 29 Dec 2023 14:29:16 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/tags/18650/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Homeassistant</title>
+      <link>http://localhost:1313/blog/tags/homeassistant/</link>
+      <pubDate>Fri, 29 Dec 2023 11:52:41 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/tags/homeassistant/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alpine on villo</title>
+    <link>http://localhost:1313/blog/tags/alpine/</link>
+    <description>Recent content in Alpine on villo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 25 Feb 2024 15:20:07 +0100</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/alpine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alpine su nebook</title>
+      <link>http://localhost:1313/blog/posts/linux/alpine/</link>
+      <pubDate>Sun, 25 Feb 2024 15:20:07 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/linux/alpine/</guid>
+      <description>Alpine linux è una distribuzione Linux veloce ed affidabile, che utilizza openrc invece di systemd, è particolarmente apprezzata in ambiente docker per la sua leggerezza e sicurezza.
+Quello che farò è usare questa distro molto leggera per farla girare su un vecchio netbook 10 pollici, un samsung N150, con processore N450 single core due threads 1.66Ghz con ram da 1GB..decisamente pochi per far girare qualsiasi OS moderno con server grafici pesanti, per questo lo farò più leggero possibile con un tile-window manager (probabilmente i3wm).</description>
+      <content>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  &lt;/p&gt;
+&lt;p&gt;Alpine linux è una distribuzione Linux &lt;strong&gt;veloce&lt;/strong&gt; ed &lt;strong&gt;affidabile&lt;/strong&gt;, che utilizza openrc invece di systemd, è particolarmente apprezzata in ambiente docker per la sua leggerezza e sicurezza.&lt;/p&gt;
+&lt;p&gt;Quello che farò è usare questa distro molto leggera per farla girare su un vecchio netbook 10 pollici, un &lt;strong&gt;samsung N150&lt;/strong&gt;, con processore N450 single core due threads 1.66Ghz con ram da 1GB..decisamente pochi per far girare qualsiasi OS moderno con server grafici pesanti, per questo lo farò più leggero possibile con un tile-window manager (probabilmente i3wm).&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

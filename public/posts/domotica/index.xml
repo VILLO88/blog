@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Domotica on villo</title>
+    <link>http://localhost:1313/blog/posts/domotica/</link>
+    <description>Recent content in Domotica on villo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 29 Dec 2023 11:52:41 +0100</lastBuildDate><atom:link href="http://localhost:1313/blog/posts/domotica/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HomeAssistant-EnergyDashboard</title>
+      <link>http://localhost:1313/blog/posts/domotica/energymonitor/</link>
+      <pubDate>Thu, 21 Mar 2024 23:20:16 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/domotica/energymonitor/</guid>
+      <description>22:19 del 21/03/24
+Finalmente nei giorni scorsi ho terminato la sostituzione del vecchio quadro elettrico con uno nuovo più grande dove poter fare alloggiare il nuovo sensore/interuttore &amp;ldquo;intelligente&amp;rdquo; che andrà a pilotare il caricatore dell&amp;rsquo;auto elettrica (Dacia Spring) e il sensore di corrente a doppia pinza sempre zigbee.
+I due prodotti sono questi:
+Il sensore tuya di sinistra non è altro che un interruttore zigbee con misurazione della potenza istantanea, inoltre ha alcune funzioni &amp;ldquo;intelligenti&amp;rdquo; di protezione con soglie programmabili, ad esempio può staccare il carico se superata una certa corrente o soglia di voltaggio, molto utile se si vuole prevenire danni.</description>
+      <content>&lt;p&gt;22:19 del 21/03/24&lt;/p&gt;
+&lt;p&gt;Finalmente nei giorni scorsi ho terminato la sostituzione del vecchio quadro elettrico con uno nuovo più grande
+dove poter fare alloggiare il nuovo sensore/interuttore &amp;ldquo;intelligente&amp;rdquo; che andrà a pilotare il caricatore dell&amp;rsquo;auto elettrica (Dacia Spring) e il sensore di corrente a doppia pinza sempre zigbee.&lt;/p&gt;
+&lt;p&gt;I due prodotti sono questi:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    
+  &lt;picture&gt;
+    &lt;source srcset=&#34;http://localhost:1313/blog/posts/domotica/energymonitor/power1_hu9752cb5998a77c0d8cff8273c4892cec_36660_d80ca10ac78e177ba8340f1a1bb5f894.webp&#34; type=&#34;image/webp&#34; /&gt;
+  &lt;img class=&#34;img-fluid&#34; src=&#34;http://localhost:1313/blog/posts/domotica/energymonitor/power1_hu9752cb5998a77c0d8cff8273c4892cec_36660_500x500_fit_q75_box.050565ae2b9bffedc5a33f149c57c36d.jpg&#34; alt=&#34;Fit Image&#34; loading=&#34;lazy&#34; height=&#34;500&#34; width=&#34;500&#34; /&gt;
+&lt;/picture&gt;
+&lt;/th&gt;
+&lt;th&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    
+  &lt;picture&gt;
+    &lt;source srcset=&#34;http://localhost:1313/blog/posts/domotica/energymonitor/power2_hufd90748f9c3d898310556a84836c90f2_24194_3f1ea52669cbc6e49f9ca30cff9f972f.webp&#34; type=&#34;image/webp&#34; /&gt;
+  &lt;img class=&#34;img-fluid&#34; src=&#34;http://localhost:1313/blog/posts/domotica/energymonitor/power2_hufd90748f9c3d898310556a84836c90f2_24194_500x500_fit_q75_box.10695e392311eb50d92dc9df6854988a.jpg&#34; alt=&#34;Fit Image&#34; loading=&#34;lazy&#34; height=&#34;500&#34; width=&#34;500&#34; /&gt;
+&lt;/picture&gt;
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;/table&gt;
+&lt;p&gt;Il sensore tuya di sinistra non è altro che un interruttore zigbee con misurazione della potenza istantanea, inoltre ha
+alcune funzioni &amp;ldquo;intelligenti&amp;rdquo; di protezione con soglie programmabili, ad esempio può staccare il carico se superata una certa corrente o soglia di voltaggio, molto utile se si vuole prevenire danni.
+Possiede inoltre un piccolo pulsante tattile sul fronte per attivare o disattivare il carico.&lt;/p&gt;
+&lt;p&gt;Il secondo sensore è solo un sensore di potenza istantanea misurata questa volta tramite pinza amperometrica che andrà posizionata sulla fase che ci interessa misurare facendo attenzione anche al verso col quale posizioniamo la pinza, perchè questi sensori forniscono non solo la potenza istantanea in Kw ma anche la &lt;em&gt;direzione&lt;/em&gt; della corrente, in questo modo è possibile stabilire se il valore riportato è potenza prodotta per esempio dall&amp;rsquo;impianto fotovoltaico oppure potenza prelevata dalla rete.
+Nel mio caso ho posizionato una pinza sulla fase subito dopo il contatore e l&amp;rsquo;altra sulla fase di ritorno dall&amp;rsquo;inverter fotovoltaico.&lt;/p&gt;
+&lt;p&gt;Dopo aver alimentato le due unità sono subito state riconosciute all interno di zigbee2mqtt e ho potuto fare i primi test proprio tramite la piattaforma zigbee2mqtt che permette di vedere i valori in tempo reale:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    
+  &lt;picture&gt;
+    &lt;source srcset=&#34;http://localhost:1313/blog/posts/domotica/energymonitor/zigbee2mqttPower_huf92b846db43cb63b8af6f21c93aa0718_137374_e5e29124a3b20ebb90e0b81c5c3cec7e.webp&#34; type=&#34;image/webp&#34; /&gt;
+  &lt;img class=&#34;img-fluid&#34; src=&#34;http://localhost:1313/blog/posts/domotica/energymonitor/zigbee2mqttPower_huf92b846db43cb63b8af6f21c93aa0718_137374_500x500_fit_box_3.16905242877c481320837ee1d170731a.png&#34; alt=&#34;Float Start&#34; loading=&#34;lazy&#34; height=&#34;482&#34; width=&#34;500&#34; /&gt;
+&lt;/picture&gt;
+ In questo caso i nomi dei due canali a e b non sono modificabile, sono istanze ancora all interno solo di zigbee2mqtt, le potremmo rinominare dentro a homeassistant.
+In questo caso il canale A è collegato alla fase del contatore quindi misura sostanzialmente la corrente che prendo e quella che cedo alla rete. B invece è collegato alla fase dell&amp;rsquo;impianto fotovoltaico.&lt;/p&gt;
+&lt;p&gt;27/03/24
+Una volta collegate le due pinze come detto, posso verificare immediatamente da zigbee2Mqtt se il &amp;ldquo;verso&amp;rdquo; della corrente e la lettura della potenza istantanea sono corretti.&lt;/p&gt;
+&lt;p&gt;Fatto questo check possiamo passare a HomeAssistant, dove sarà il lavoro più grande di configurazione, poichè noi abbiamo delle entità nuove che ci forniscono valori di potenza instantanea, perfetti per una power dashboard, ma noi vogliamo anche integrare una energy dashboard.
+Per fare questo dobbiamo creare delle nuove entità tramite la configurazione di &lt;em&gt;integrazioni&lt;/em&gt;
+La prima cosa da fare sicuramente è segnarci come si chiamano su HomeAssistant le entità che ci forniscono i dati di potenza istantanea e &amp;ldquo;direzione&amp;rdquo; di corrente, nel mio caso si chiameranno &amp;ldquo;sensor.power2canali_energy_flow_a&amp;rdquo; e &amp;ldquo;sensor.power2canali_power_a&amp;rdquo;.
+Il primo assumerà solo due stati, &lt;em&gt;consuming&lt;/em&gt; o &lt;em&gt;producing&lt;/em&gt; invece il secondo darà un valore in Kw.
+Nel file di configurazione di HomeAssistant andremo a creare delle nuove entità:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;template:
+  - sensor:
+      - name: &amp;#34;consumo&amp;#34;
+        state: &amp;gt;
+          {% if states(&amp;#39;sensor.power2canali_energy_flow_a&amp;#39;) in &amp;#39;consuming&amp;#39; %}{{ states(&amp;#39;sensor.power2canali_power_a&amp;#39;) }}
+          {% else %}
+            0
+          {% endif %}
+        unit_of_measurement: &amp;#34;W&amp;#34;
+        state_class: measurement
+        device_class: &amp;#34;power&amp;#34;
+        icon: mdi.transmission-tower-export
+      - name: &amp;#34;produzione&amp;#34;
+        state: &amp;gt;
+          {% if states(&amp;#39;sensor.power2canali_energy_flow_a&amp;#39;) in &amp;#39;producing&amp;#39; %}{{ states(&amp;#39;sensor.power2canali_power_a&amp;#39;) }}
+          {% else %}
+            0
+          {% endif %}
+        unit_of_measurement: &amp;#34;W&amp;#34;
+        state_class: measurement
+        device_class: &amp;#34;power&amp;#34;
+        icon: mdi.transmission-tower-import
+
+sensor:
+  - platform: integration
+    source: sensor.consumo
+    name: energia_consumata
+    unit_prefix: k
+    unit_time: h
+    round: 2
+    method: left
+  - platform: integration
+    source: sensor.produzione
+    name: energia_prodotta
+    unit_prefix: k
+    unit_time: h
+    round: 2
+    method: left
+
+homeassistant:
+  customize:
+    sensor.energia_consumata:
+      state_class: total_increasing
+    sensor.energia_prodotta:
+      state_class: total_increasing
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;04/04/2024&lt;/p&gt;
+&lt;p&gt;Una volta riavviato HomeAssistant troveremo le nuove entità disponibili per essere aggiunte alla dashboard energia.
+Dopo averle aggiunte il programma ci avviserà che dovremo attendere fino a 2 ore per avere a grafico dei valori corretti..ed ecco cosa ci troveremo dopo poche ore:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    
+  &lt;picture&gt;
+    &lt;source srcset=&#34;http://localhost:1313/blog/posts/domotica/energymonitor/energy_hu19d9c3e75b71067ddf8a02f983d66672_484888_bbc48af2e239cba19bf8b9e77ac91c1a.webp&#34; type=&#34;image/webp&#34; /&gt;
+  &lt;img class=&#34;img-fluid&#34; src=&#34;http://localhost:1313/blog/posts/domotica/energymonitor/energy_hu19d9c3e75b71067ddf8a02f983d66672_484888_500x500_fit_box_3.588e89a0c7aea5fa5ccfac189c28f0b7.png&#34; alt=&#34;energy&#34; loading=&#34;lazy&#34; height=&#34;500&#34; width=&#34;384&#34; /&gt;
+&lt;/picture&gt;
+&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Zigbee</title>
+      <link>http://localhost:1313/blog/posts/domotica/zigbee/</link>
+      <pubDate>Fri, 29 Dec 2023 14:29:16 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/domotica/zigbee/</guid>
+      <description>15:12 Il protocollo Zigbee si differenzia dal normale protocollo wifi usato per esempio dai dispositivi Shelly in diversi aspetti, diciamo che di base con la tecnologia usata da shelly condivide solo la banda di frequenza utilizzata dei 2.4Ghz, del resto il sistema zigbee per trasferimento di piccoli pacchetti di dati è molto più efficente, di seguito alcune funzionalità:
+utilizzano un gateway per comunicare con il server, il che ha diversi pro, infatti il gateway può essere messo in diverse zone anche non per forza vicino al router wi-fi la trasmissione dei pacchetti avviene solo in funzione della necessità di comunicare uno stato(sensore) e quindi riduce l&amp;rsquo;inquinamento radio la funzione veramente più incredibile è quella della rete mesh, in pratica ipotizziamo di avere 3 dispositivi zigbee + il gateway, il dispositivo 1 è un sensore a batteria e si trova vicino al gateway, il dispositivo 2 è un attuatore per tapparelle alimentato a 220v e si trova a metà circa della portata del gateway e il dispositivo 3 è un sensore a batteria che rispetto al gateway si troverebbe troppo lontano, ma relativamente vicino al dispositivo 2 che # funge da router ripetitore # e permette di estendere la comunicazione anche fino al sensore 3.</description>
+      <content>&lt;p&gt;15:12
+Il protocollo Zigbee si differenzia dal normale protocollo wifi usato per esempio dai dispositivi Shelly in diversi aspetti, diciamo che di base con la tecnologia usata da shelly condivide solo la banda di frequenza utilizzata dei 2.4Ghz, del resto il sistema zigbee &lt;em&gt;per trasferimento di piccoli pacchetti di dati&lt;/em&gt; è molto più efficente, di seguito alcune funzionalità:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;utilizzano un gateway per comunicare con il server, il che ha diversi pro, infatti il gateway può essere messo in diverse zone anche non per forza vicino al router wi-fi&lt;/li&gt;
+&lt;li&gt;la trasmissione dei pacchetti avviene solo in funzione della necessità di comunicare uno stato(sensore) e quindi riduce l&amp;rsquo;inquinamento radio&lt;/li&gt;
+&lt;li&gt;la funzione veramente più incredibile è quella della rete mesh, in pratica ipotizziamo di avere 3 dispositivi zigbee + il gateway, il dispositivo 1 è un sensore a batteria e si trova vicino al gateway, il dispositivo 2 è un attuatore per tapparelle alimentato a 220v e si trova a metà circa della portata del gateway e il dispositivo 3 è un sensore a batteria che rispetto al gateway si troverebbe troppo lontano, ma relativamente vicino al dispositivo 2 che # funge da router ripetitore # e permette di estendere la comunicazione anche fino al sensore 3.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Modulo per le tapparelle che ho usato che funge anche da router per il segnale zigbee:
+
+&lt;img src=&#34;tapparelle.jpg&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robot on villo</title>
+    <link>http://localhost:1313/blog/tags/robot/</link>
+    <description>Recent content in Robot on villo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 20 May 2024 14:29:16 +0100</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/robot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robomower</title>
+      <link>http://localhost:1313/blog/posts/elettronica/robomower/</link>
+      <pubDate>Mon, 20 May 2024 14:29:16 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/elettronica/robomower/</guid>
+      <description>ROBOMOWER Con questo progetto andro&amp;rsquo; a realizzare un robot tagliaerba basato su visione artificiale, obiettivo del progetto creare un robot tagliaerba senza filo perimetrale per piccoli e piccolissimi giardini.
+obiettivi: basso consumo possibilita&amp;rsquo; di ricaria solare senza basennnn </description>
+      <content>&lt;h1 id=&#34;robomower&#34;&gt;ROBOMOWER&lt;/h1&gt;
+&lt;p&gt;Con questo progetto andro&amp;rsquo; a realizzare un robot tagliaerba basato su visione artificiale, obiettivo del progetto creare un robot tagliaerba senza filo perimetrale per piccoli e piccolissimi giardini.&lt;/p&gt;
+&lt;h2 id=&#34;obiettivi&#34;&gt;obiettivi:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;basso consumo&lt;/li&gt;
+&lt;li&gt;possibilita&amp;rsquo; di ricaria solare senza basennnn&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
